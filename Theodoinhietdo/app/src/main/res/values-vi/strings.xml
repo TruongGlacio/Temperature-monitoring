@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Phần mềm giám sát nhiệt độ</string>
+    <string name="item_changeAlarm">Chỉnh ngưỡng cảnh báo</string>
+    <string name="item_changelink">Lựa chọn server cloud</string>
+    <string name="item_FirebaseCloud">Firebase Cloud</string>
+    <string name="item_ThingSpeakCloud">ThingSpeak Cloud</string>
+    <string name="item_MoFireBase">Truy cập could data</string>
+    <string name="item_ExitAll">Đóng ứng dụng</string>
+    <string name="item_Setting">Cài đặt</string>
+    <string name="item_area1">Vùng giám sát 1_C9</string>
+    <string name="item_area2">Vùng giám sát 2_Nhà Thầy</string>
+    <string name="item_area3">Vùng giám sát 3_Thư viện</string>
+    <string name="item_area4">Vùng giám sát 4</string>
+    <string name="item_area5">Vùng giám sát 5</string>
+    <string name="item_area6">Vùng giám sát 6</string>
+    <string name="item_select_areasensor">Lựa chọn vùng giám sát</string>
+    <string name="item_SaveCloud1">Vùng lưu trữ 1</string>
+    <string name="item_SaveCloud2">Vùng lưu trữ 2</string>
+    <string name="item_SaveCloud3">Vùng lưu trữ 3</string>
+    <string name="item_SaveCloud4">Vừng lưu trữ 4</string>
+    <string name="item_SelectSaveCloud">Chọn vùng lưu trữ</string>
+    <string name="item_Setting_menu">Menu</string>
+
+</resources>

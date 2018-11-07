@@ -1,0 +1,33 @@
+package buixexamplecom.theodoinhietdo2;
+
+/**
+ * Created by Buixu on 11/03/2016.
+ */
+import android.content.Context;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
+
+/**
+ * Created by Buixu on 09/03/2016.
+ */
+public class CheckConnectInternet extends Thread{
+
+    ConnectivityManager connectivityManager;
+
+    NetworkInfo wifiNetwork = connectivityManager .getNetworkInfo(ConnectivityManager.TYPE_WIFI);
+    NetworkInfo mobileNetwork = connectivityManager .getNetworkInfo(ConnectivityManager.TYPE_MOBILE);
+    NetworkInfo activeNetwork = connectivityManager .getActiveNetworkInfo();
+    //   if(.isConnected()){
+    //Connection available
+    // }else
+    //{
+    //Connection unavailable
+    // }
+
+    // public  boolean CheckInternet(ConnectivityManager connMgr){
+    // connMgr = (ConnectivityManager)getSystemService(Context.CONNECTIVITY_SERVICE);
+
+    //return connMgr.getActiveNetworkInfo() != null && connMgr.getActiveNetworkInfo().isConnectedOrConnecting();
+    //  }
+}
+

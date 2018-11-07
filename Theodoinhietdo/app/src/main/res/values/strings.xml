@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Phần mềm giám sát nhiệt độ</string>
+    <string name="item_Setting">Setting</string>
+    <string name="item_changeAlarm">Change Alarm</string>
+    <string name="item_changelink">change link to cloud</string>
+    <string name="item_FirebaseCloud">Firebase Cloud</string>
+    <string name="item_FirebaseCloud1">FirebaseCloud1</string>
+    <string name="item_FirebaseCloud2">FirebaseCloud2</string>
+    <string name="item_FirebaseCloud3">FirebaseCloud3</string>
+    <string name="item_FirebaseCloud4">FirebaseCloud4</string>
+    <string name="item_ThingSpeakCloud">ThingSpeak Cloud</string>
+    <string name="item_ExitAll">Exit All</string>
+    <string name="item_MoFireBase">Open Web Cloud</string>
+    <string name="item_select_areasensor">Select_AreaSensor</string>
+    <string name="item_area1">Area1_C9</string>
+    <string name="item_area2">Area1_Techer home</string>
+    <string name="item_area3">Area1_Library</string>
+    <string name="item_area4">Area1</string>
+    <string name="item_area5">Area1</string>
+    <string name="item_area6">Area1</string>
+
+    <string name="item_Setting_menu">Setting</string>
+    <string name="item_SelectSaveCloud">SelectSavecloud</string>
+    <string name="item_SaveCloud1">SaveCloud1</string>
+    <string name="item_SaveCloud2">SaveCloud2</string>
+    <string name="item_SaveCloud3">SaveCloud3</string>
+    <string name="item_SaveCloud4">SaveCloud4</string>
+</resources>

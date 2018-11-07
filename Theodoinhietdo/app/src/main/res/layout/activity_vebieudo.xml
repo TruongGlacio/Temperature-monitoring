@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context="buixexamplecom.theodoinhietdo2.Vebieudo"
+    android:background="#84FFFF">
+
+   <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/chart_container_max"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="#E1F5FE"
+
+       android:layout_alignParentLeft="true"
+       android:layout_alignParentStart="true"
+       android:layout_above="@+id/chart_container1"
+       android:layout_below="@+id/relativeLayout" />
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/chart_container1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#E1F5FE"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/chart_container4" />
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/chart_container2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#E1F5FE"
+
+        android:layout_above="@+id/chart_container3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/chart_container3"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#E1F5FE"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/linearLayout" />
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/chart_container4"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#E1F5FE"
+        android:layout_above="@+id/chart_container2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:elevation="1dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#1E88E5"
+        android:id="@+id/linearLayout">
+
+
+        <ImageButton
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:elevation="2dp"
+            android:id="@+id/button_to_Main"
+            android:scaleType="fitXY"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/duongvienxanhtron"
+            android:src="@drawable/untitled1"
+            android:layout_marginLeft="21dp"
+            android:layout_marginStart="21dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextClock
+            android:id="@+id/textClock1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="2dp"
+            android:format24Hour="dd/MM/yyyy  HH:mm:ss"
+            android:textColor="#FFFFFF"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="0dp"
+        android:id="@+id/relativeLayout"
+        android:background="#3F51B5"
+        android:elevation="1dp">
+
+        <ImageView
+            android:layout_width="83dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView_anhLab"
+            android:src="@drawable/anhlab"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:scaleType="fitXY"
+            android:elevation="1dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:textSize="40dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="ASE LAB"
+            android:id="@+id/textView_Tenlab"
+            android:background="#3F51B5"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Phần mềm theo dõi nhiệt độ"
+            android:id="@+id/textViewTenphanmem"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:background="#3F51B5"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/textView_Tenlab" />
+    </RelativeLayout>
+
+</RelativeLayout>

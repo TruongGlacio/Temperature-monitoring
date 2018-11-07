@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+tools:context="buixexamplecom.intent.MainActivity">
+    <item android:title="@string/item_Setting"
+        app:showAsAction="never"
+        android:id="@+id/Setting">
+        <menu>
+
+            <item
+                android:title="@string/item_changeAlarm"
+                android:showAsAction="never"
+                android:id="@+id/changeAlarm"
+
+                />
+            <item
+                android:title="@string/item_SelectSaveCloud"
+                android:showAsAction="never"
+                android:id="@+id/SelectSaveCloud"
+
+
+                >
+                <menu>
+                    <item
+                        android:title="@string/item_SaveCloud1"
+                        android:showAsAction="never"
+                        android:id="@+id/SaveCloud1"
+                        />
+                    <item
+                        android:title="@string/item_SaveCloud2"
+                        android:showAsAction="never"
+                        android:id="@+id/SaveCloud2"
+                        />
+                    <item
+                        android:title="@string/item_SaveCloud3"
+                        android:showAsAction="never"
+                        android:id="@+id/SaveCloud3"
+                        />
+                    <item
+                        android:title="@string/item_SaveCloud4"
+                        android:showAsAction="never"
+                        android:id="@+id/SaveCloud4"
+                        />
+                </menu>
+            </item>
+            <item
+                android:title="@string/item_changelink"
+                android:id="@+id/changeLinkCloud"
+                android:showAsAction="never"
+                >
+                <menu>
+                    <item
+                        android:title="FireBase"
+                        android:id="@+id/FireBaseCloud"
+                        android:icon="@drawable/connect_database"
+                        android:showAsAction="never">
+                        <menu>
+                            <item
+                                android:title="FireBaseCloud1"
+                                android:id="@+id/FireBaseCloud1"
+                                android:icon="@drawable/connect_database"
+                                android:showAsAction="never"/>
+                            <item
+                                android:title="FireBaseCloud2"
+                                android:id="@+id/FireBaseCloud2"
+                                android:icon="@drawable/connect_database"
+                                android:showAsAction="never"/>
+                            <item
+                                android:title="FireBaseCloud3"
+                                android:id="@+id/FireBaseCloud3"
+                                android:icon="@drawable/connect_database"
+                                android:showAsAction="never"/>
+                            <item
+                                android:title="FireBaseCloud4"
+                                android:id="@+id/FireBaseCloud4"
+                                android:icon="@drawable/connect_database"
+                                android:showAsAction="never"/>
+                        </menu>
+                    </item>
+
+                    <item
+                        android:title="ThingSpeak"
+                        android:id="@+id/ThingSpeakCloud"
+                        android:showAsAction="never"
+                        android:icon="@drawable/thingspeak"
+                        />
+                </menu>
+                </item>
+            <item
+                android:title="@string/item_MoFireBase"
+                android:showAsAction="never"
+                android:id="@+id/TruyCapFireBase"
+                />
+            <item
+                 android:title="@string/item_select_areasensor"
+                android:showAsAction="never"
+                android:id="@+id/Select_areaSensor">
+                <menu>
+                    <item
+                        android:id="@+id/are1"
+                        android:title="@string/item_area1"
+                        android:showAsAction="never"/>
+                    <item
+                        android:id="@+id/are2"
+                        android:title="@string/item_area2"
+                        android:showAsAction="never"/>
+                    <item
+                        android:id="@+id/are3"
+                        android:title="@string/item_area3"
+                        android:showAsAction="never"/>
+                    <item
+                        android:id="@+id/are4"
+                        android:title="@string/item_area4"
+                        android:showAsAction="never"/>
+                    <item
+                        android:id="@+id/are5"
+                        android:title="@string/item_area5"
+                        android:showAsAction="never"/>
+                    <item
+                        android:id="@+id/are6"
+                        android:title="@string/item_area6"
+                        android:showAsAction="never"/>
+                </menu>
+                </item>
+
+        </menu>
+
+    </item>
+
+
+
+    <item
+        android:title="@string/item_ExitAll"
+        app:showAsAction="never"
+        android:id="@+id/ExitAll"
+
+        />
+</menu>

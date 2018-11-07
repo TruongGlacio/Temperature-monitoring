@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="340dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="40dp"
+    tools:context="buixexamplecom.theodoinhietdo2.settingactivity">
+
+    <PreferenceCategory
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#212121"
+        android:elevation="1dp">
+
+        <ButtonPreference
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:id="@+id/button_cancel"
+            android:layout_gravity="right|bottom"
+            android:elevation="2dp"
+            android:layout_below="@+id/textView_canhbao_setting"
+            android:layout_alignRight="@+id/textView_canhbao_setting"
+            android:layout_alignEnd="@+id/textView_canhbao_setting" />
+
+        <ButtonPreference
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OK"
+            android:id="@+id/button_OK"
+            android:layout_gravity="left|bottom"
+            android:elevation="2dp"
+            android:layout_below="@+id/textView_canhbao_setting"
+            android:layout_alignLeft="@+id/textView_canhbao_setting"
+            android:layout_alignStart="@+id/textView_canhbao_setting" />
+
+        <EditTextPreference
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:hint="Ngưỡng báo động"
+            android:id="@+id/textViewbaodong_setting"
+            android:layout_marginBottom="23dp"
+            android:elevation="1dp"
+            android:textColor="#000000"
+            android:background="#FFFFFF"
+            android:layout_above="@+id/textView5"
+            android:layout_centerHorizontal="true" />
+
+        <EditTextPreference
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+
+            android:hint="Ngưỡng cảnh báo"
+            android:id="@+id/textView_canhbao_setting"
+            android:elevation="1dp"
+            android:textColor="#000000"
+            android:background="#FFFFFF"
+            android:layout_below="@+id/textView5"
+            android:layout_alignLeft="@+id/textViewbaodong_setting"
+            android:layout_alignStart="@+id/textViewbaodong_setting" />
+
+        <TextViewPreference
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Ngưỡng báo động"
+            android:id="@+id/textView6"
+            android:textColor="#FFFFFF"
+            android:layout_above="@+id/textViewbaodong_setting"
+            android:layout_alignLeft="@+id/textViewbaodong_setting"
+            android:layout_alignStart="@+id/textViewbaodong_setting" />
+
+        <TextViewPreference
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Ngưỡng cảnh báo"
+            android:id="@+id/textView5"
+            android:password="false"
+            android:phoneNumber="false"
+            android:textColor="#FFFFFF"
+            android:layout_centerVertical="true"
+            android:layout_alignLeft="@+id/textView_canhbao_setting"
+            android:layout_alignStart="@+id/textView_canhbao_setting" />
+
+    </PreferenceCategory>
+</PreferenceCategory>
+</PreferenceScreen>
